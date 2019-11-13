@@ -1,0 +1,21 @@
+21:47:37.585 karate.env system property was: null 
+21:47:37.595 request:
+1 > GET http://localhost:5000/categories/5d6ac60790b6610de804de4a
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: localhost:5000
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+1 > x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ2MTJhZTllMTVjOTkzYWYwNmEzYWY3In0sImlhdCI6MTU2NjY0OTA2NiwiZXhwIjoxNjE2NjQ5MDY2fQ.xyRWTWRJUroPfzofsA43YCCb6Td0dzAxt2OmGk-ewpU
+
+21:47:37.716 response time in milliseconds: 119.65
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 831
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Nov 2019 19:47:37 GMT
+1 < ETag: W/"33f-xlz39EXJTeKPtoJ2AccLTdlgCFo"
+1 < X-Powered-By: Express
+{"_id":"5d6ac60790b6610de804de4a","title":"cat1","description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard","imageUrl":"","subCategory":[{"excludes":[],"includes":[],"itenerary":[],"date":"2019-08-31T19:10:28.587Z","_id":"5d6ac62490b6610de804de4b","name":"subcat1","description":"sub1","duration":"3"},{"excludes":[],"includes":[],"itenerary":[],"date":"2019-08-31T19:10:48.893Z","_id":"5d6ac63890b6610de804de4c","name":"subcat2","description":"sub2","duration":"3"},{"excludes":[],"includes":[],"itenerary":[],"date":"2019-08-31T19:26:00.267Z","_id":"5d6ac9c843fa4b1030270306","name":"subcat2","description":"sub2","duration":"3"}],"date":"2019-08-31T19:09:59.503Z","createdAt":"2019-08-31T19:09:59.504Z","updatedAt":"2019-09-25T17:55:03.296Z","__v":20}
+

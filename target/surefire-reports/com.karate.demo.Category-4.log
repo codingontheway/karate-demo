@@ -1,0 +1,21 @@
+21:47:38.467 karate.env system property was: null 
+21:47:38.475 request:
+1 > DELETE http://localhost:5000/categories/5dcc5c6f631d9d54f0e54e78
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: localhost:5000
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+1 > x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ2MTJhZTllMTVjOTkzYWYwNmEzYWY3In0sImlhdCI6MTU2NjY0OTA2NiwiZXhwIjoxNjE2NjQ5MDY2fQ.xyRWTWRJUroPfzofsA43YCCb6Td0dzAxt2OmGk-ewpU
+
+21:47:38.582 response time in milliseconds: 105.84
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 18
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Nov 2019 19:47:38 GMT
+1 < ETag: W/"12-pyMgdhSQy+V1zRMDQFiLXFMX3YM"
+1 < X-Powered-By: Express
+"category deleted"
+

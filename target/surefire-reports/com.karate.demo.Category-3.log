@@ -1,0 +1,23 @@
+21:47:37.746 karate.env system property was: null 
+21:47:37.767 request:
+1 > POST http://localhost:5000/categories
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 93
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:5000
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.1)
+1 > x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ2MTJhZTllMTVjOTkzYWYwNmEzYWY3In0sImlhdCI6MTU2NjY0OTA2NiwiZXhwIjoxNjE2NjQ5MDY2fQ.xyRWTWRJUroPfzofsA43YCCb6Td0dzAxt2OmGk-ewpU
+{"title":"karate2","description":"karate2 demo","imageUrl":"https://i.imgur.com/efFH5RZ.jpg"}
+
+21:47:38.453 response time in milliseconds: 684.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: keep-alive
+1 < Content-Length: 263
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Nov 2019 19:47:38 GMT
+1 < ETag: W/"107-iYxUT+aE8uthwpAq38YUusljOA0"
+1 < X-Powered-By: Express
+{"_id":"5dcc5dda631d9d54f0e54e79","title":"karate2","description":"karate2 demo","imageUrl":"https://i.imgur.com/efFH5RZ.jpg","subCategory":[],"date":"2019-11-13T19:47:38.350Z","createdAt":"2019-11-13T19:47:38.351Z","updatedAt":"2019-11-13T19:47:38.351Z","__v":0}
+
